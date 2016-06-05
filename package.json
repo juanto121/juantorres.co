@@ -1,0 +1,41 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-compress": "^1.3.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "name": "juantorres",
+  "description": "I just bought the domain to force me to make this simple site.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanto121/juantorres.co.git"
+  },
+  "keywords": [
+    "juantorres.co"
+  ],
+  "author": "Juan Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanto121/juantorres.co/issues"
+  },
+  "homepage": "https://github.com/juanto121/juantorres.co#readme"
+}
