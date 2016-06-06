@@ -12,4 +12,8 @@ module.exports = function(app){
 		res.render('./projects/heartmonitor.ejs');
 	});
 
+	app.get('/projects/maggie', function(req, res){
+		res.render('./projects/maggie/maggiesimpson.ejs');
+	});
+
 };
